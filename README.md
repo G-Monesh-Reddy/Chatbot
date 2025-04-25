@@ -20,3 +20,32 @@ LLM: Google Gemini / OpenAI GPT
 Translation API: Google Translate / Gemini Language API
 
 State Management: Redux / Context API
+
+
+
+1. Clone the Repository
+bash
+CopyEdit
+git clone https://github.com/yourusername/multilingual-chatbot.git
+cd multilingual-chatbot
+
+2. Install Backend Dependencies
+bash
+CopyEdit
+cd server
+pip install -r requirements.txt
+
+3. Start Backend
+bash
+CopyEdit
+python app.py
+
+4. Start Frontend
+bash
+CopyEdit
+cd ../client
+npm install
+npm run dev
+
+
+
